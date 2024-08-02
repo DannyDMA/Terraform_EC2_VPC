@@ -18,15 +18,15 @@
 
 # **File Needed**
 
-main.tf        # Provider + includes files automatically
+main.tf              #Provider + includes files automatically
 
-vpc.tf         # Creates custom VPC 10.0.0.0/16
+vpc.tf               #Creates custom VPC 10.0.0.0/16
 
-ec2.tf         # Launches Amazon Linux 2 EC2 in the default VPC
+ec2.tf               #Launches Amazon Linux 2 EC2 in the default VPC
 
-variables.tf   # Variables for region, instance type, tags
+variables.tf         #Variables for region, instance type, tags
 
-outputs.tf     # Shows VPC ID and EC2 public IP
+outputs.tf           #Shows VPC ID and EC2 public IP
 
 --- 
 
