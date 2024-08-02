@@ -25,7 +25,7 @@ data "aws_ami" "amazon_linux2" {
 resource "aws_instance" "amazon_linux" {
   ami           = data.aws_ami.amazon_linux2.id
   instance_type = "t2.micro"
-  subnet_id     = data.aws_subnets.default_subnets.ids[0]
+  subnet_id     = data.aws_subnets.default_subnets.id
 
   tags = {
     Name = "Terraform-AL2-Instance"
