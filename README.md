@@ -18,11 +18,7 @@
 
 # **File Needed**
 
-main.tf              #Provider + includes files automatically
-
-vpc.tf               #Creates custom VPC 10.0.0.0/16
-
-ec2.tf               #Launches Amazon Linux 2 EC2 in the default VPC
+main.tf              #Provider 
 
 variables.tf         #Variables for region, instance type, tags
 
